@@ -13,4 +13,9 @@ Implement 2 *iterators* for it: from beginning to end and reverse.
 - основной - от начала к концу;
 - вспомогательный - обратный.
 
+-----------------------------
 
+  *Сделал несколько версий:*
+- *DoublyLinkedList_v1.java - Node - статический вложенный класс, свойство value типа Object;*
+- *DoublyLinkedList_v2.java - Node - просто вложенный класс, свойство value типа T (тянется из внешнего класса);*
+- *DoublyLinkedList_v3.java - Node - статический вложенный + параметризированный класс, свойство value типа Т.*
